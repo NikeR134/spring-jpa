@@ -1,2 +1,7 @@
-# spring-jpa
-Netology homework: Spring Data JPA
+# Spring Data JPA
+
+REST API для работы с пользователями через Spring Data JPA. Миграции Flyway создают таблицу и добавляют начальные данные.
+
+Запустите PostgreSQL командой `docker compose up -d`, затем приложение командой `mvn spring-boot:run`.
+
+Доступны поиск по городу, фильтрация по возрасту, поиск по имени и фамилии, а также CRUD-операции по адресу `/persons`.
